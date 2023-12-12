@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: magenta;
     color: black;
     text-align: center;
     padding: 1em;
@@ -24,6 +24,6 @@ ul {
 footer {
     text-align: center;
     padding: 1em;
-    background-color: red;
+    background-color: magenta;
     color: black;
 }
