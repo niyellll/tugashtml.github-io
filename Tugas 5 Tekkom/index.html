@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <title>@nie.ll_ - 71231037 - personal web page</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <header>
+       <h1>Selamat datang di personal web saya</h1>
+    </header>
+    <section id="foto">
+            <h2>Tentang Saya</h2>
+            <img src="WIN_20210218_13_04_22_Pro.jpg" width="640px" height="480px" alt="foto saya">
+
+    </section>
+    <section id="tentang-saya">
+        <h2>Nathaniel Krisnahadi</h2>
+        <p>@nie.ll_</p>
+        <h3>Bekasi, Jawa Barat, Indonesia</h3>
+        <h3>Universitas Kristen Duta Wacana </h3>
+       
+
+        
+    </section>
+    <section id="keterampilan">
+        <h2>Skillset</h2>
+        <h3>1. Tidak ada :)</h3>
+        <h4>2. Sedikit CSS</h4>
+    </section>
+    
+    <button id="tombolGantiWarna"> coba ganti warna </button>
+
+    <footer>
+        <p>Terimakasih Sudah mampir ke website saya </p>
+        <p>Jangan lupa follow ig saya @nie.ll_</p>a
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ['red','greein','blue','white']
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = Document.getElementBYId('tombolGantiWarna');
+        tombolGantiWarna.addEvenListener('click',gantiWarnaRandom);
+    </script>
+</body>
+</html>
